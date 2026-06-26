@@ -53,7 +53,7 @@ Our proprietary framework ensures that every AI response is fast, stylistically 
 ## 🌐 Live Deployments
 
 * **Main Website:** [taupeconsulting.com](https://taupeconsulting.com)
-* **AI Suite (Hugging Face):** [Access the Suite](https://huggingface.co/spaces/yourusername/yourspace)
+* **AI Suite (Hugging Face):** [Access the Suite](https://huggingface.co/taupedev/spaces)
 
 ## 📩 Contact & Consulting
 Taupe Consulting is available for technical orchestration, RAG implementation, and AI strategy projects.
