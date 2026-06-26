@@ -27,13 +27,12 @@
 <body class="bg-stone-50 text-stone-900 leading-relaxed">
 
     <nav class="flex justify-between items-center px-8 py-6 max-w-7xl mx-auto">
-        <!--<div class="text-2xl font-bold tracking-tighter text-stone-800">TAUPE<span class="text-stone-400">CONSULTING</span></div>-->
         <div class="flex items-center space-x-3">
-        <img src="assets/Website-logo-size-2-150x46.png" alt="Taupe Consulting Logo" class="h-8 w-auto">
-        <div class="text-2xl font-bold tracking-tighter text-stone-800 uppercase">
-            TAUPE<span class="text-stone-400 font-medium">CONSULTING</span>
+            <img src="assets/Website-logo-size-2-150x46.png" alt="Taupe Consulting Logo" class="h-8 w-auto">
+            <div class="text-2xl font-bold tracking-tighter text-stone-800 uppercase">
+                TAUPE<span class="text-stone-400 font-medium">CONSULTING</span>
+            </div>
         </div>
-</div>
         <div class="space-x-8 text-sm font-medium uppercase tracking-widest text-stone-500">
             <a href="#architecture" class="hover:text-stone-900 transition">Architecture</a>
             <a href="#services" class="hover:text-stone-900 transition">Solutions</a>
@@ -57,9 +56,8 @@
         <div class="max-w-7xl mx-auto px-8">
             <h2 class="text-3xl font-bold mb-16 text-center">The Taupe AI Three-Tier Architecture</h2>
             
-            
             <div class="grid md:grid-cols-3 gap-12">
-                    <div class="p-8 border border-stone-800 rounded-2xl hover:border-stone-500 transition group">
+                <div class="p-8 border border-stone-800 rounded-2xl hover:border-stone-500 transition group">
                     <div class="mono text-stone-500 mb-4">01 // THE ENGINE</div>
                     <h3 class="text-xl font-bold mb-4 text-white">Intelligence Layer</h3>
                     <p class="text-stone-400 text-sm mb-6">
@@ -116,9 +114,7 @@
                     </ul>
                 </div>
 
-
-
-                   <div class="p-8 border border-stone-800 rounded-2xl hover:border-stone-500 transition group">
+                <div class="p-8 border border-stone-800 rounded-2xl hover:border-stone-500 transition group">
                     <div class="mono text-stone-500 mb-4 tracking-tighter">03 // THE MEMORY</div>
                     <h3 class="text-xl font-bold mb-4 text-white">Knowledge Vault</h3>
                     <p class="text-stone-400 text-sm mb-6">
@@ -146,17 +142,56 @@
     </section>
 
     <section id="services" class="py-24 max-w-7xl mx-auto px-8">
-        <h2 class="text-3xl font-bold mb-12">Deployment Ready Solutions</h2>
+        <h2 class="text-3xl font-bold mb-4">Deployment Ready Solutions</h2>
+        <p class="text-stone-500 mb-12 max-w-2xl">Production blueprints configured for corporate intelligence layers, executive tooling, and low-resource data modernization.</p>
+        
         <div class="grid md:grid-cols-2 gap-8">
-            <div class="bg-white p-10 rounded-3xl shadow-sm border border-stone-100">
-                <h4 class="font-bold text-lg mb-2">Legal & Research RAG Bot</h4>
-                <p class="text-stone-600 mb-4">Parsing complex PDF/DOCX structures into actionable insights with full source transparency.</p>
-                <span class="text-xs font-bold text-stone-400 uppercase mono">Production Stack: Python | Unstructured | Weaviate</span>
+            <div class="bg-white p-10 rounded-3xl shadow-sm border border-stone-100 flex flex-col justify-between">
+                <div>
+                    <h4 class="font-bold text-xl mb-2 text-stone-800">Legal & Research RAG Bot</h4>
+                    <p class="text-stone-600 mb-6 text-sm">Parsing complex PDF/DOCX structures into actionable insights with full semantic parsing and metadata source verification.</p>
+                </div>
+                <span class="text-xs font-bold text-stone-400 uppercase mono tracking-wider">Production Stack: Python | Unstructured | Weaviate</span>
             </div>
-            <div class="bg-white p-10 rounded-3xl shadow-sm border border-stone-100">
-                <h4 class="font-bold text-lg mb-2">Brand Voice Generator</h4>
-                <p class="text-stone-600 mb-4">Automating executive-level LinkedIn content that mirrors the personality of Top-Tier Strategic Consultants.</p>
-                <span class="text-xs font-bold text-stone-400 uppercase mono">Production Stack: Streamlit | Gemini 3 Flash</span>
+            
+            <div class="bg-white p-10 rounded-3xl shadow-sm border border-stone-100 flex flex-col justify-between">
+                <div>
+                    <h4 class="font-bold text-xl mb-2 text-stone-800">Brand Voice Generator</h4>
+                    <p class="text-stone-600 mb-6 text-sm">Automating executive-level LinkedIn and corporate content that mirrors the exact communication DNA of elite consulting partners.</p>
+                </div>
+                <span class="text-xs font-bold text-stone-400 uppercase mono tracking-wider">Production Stack: Streamlit | Gemini 3 Flash</span>
+            </div>
+
+            <div class="bg-white p-10 rounded-3xl shadow-sm border border-stone-100 flex flex-col justify-between hover:shadow-md transition-shadow">
+                <div>
+                    <div class="flex justify-between items-start mb-2">
+                        <h4 class="font-bold text-xl text-stone-800">Tagbana Speech Collector</h4>
+                        <a href="https://huggingface.co/spaces/taupedev/tagbana-speech-collector" target="_blank" class="text-stone-400 hover:text-stone-800 transition">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                        </a>
+                    </div>
+                    <p class="text-stone-600 mb-6 text-sm">A mobile-first crowd-intelligence interface built to ingest clean indigenous language data. Features native browser audio clock controls to capture high-fidelity inputs directly from messengers.</p>
+                </div>
+                <div class="space-y-3">
+                    <span class="text-xs font-bold text-stone-400 uppercase mono tracking-wider block">Production Stack: Gradio 6.0 | FFmpeg | 16kHz Mono Target</span>
+                    <a href="https://huggingface.co/spaces/taupedev/tagbana-speech-collector" target="_blank" class="text-xs font-semibold underline text-stone-600 hover:text-stone-900">Launch Prototype →</a>
+                </div>
+            </div>
+
+            <div class="bg-white p-10 rounded-3xl shadow-sm border border-stone-100 flex flex-col justify-between hover:shadow-md transition-shadow">
+                <div>
+                    <div class="flex justify-between items-start mb-2">
+                        <h4 class="font-bold text-xl text-stone-800">Tagbana Peer Validator</h4>
+                        <a href="https://huggingface.co/spaces/taupedev/tagbana-validator" target="_blank" class="text-stone-400 hover:text-stone-800 transition">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                        </a>
+                    </div>
+                    <p class="text-stone-600 mb-6 text-sm">A consensus-driven validation pipeline designed to isolate noise, filter low-quality audio blocks, and prepare validated arrays for deep learning ASR models (Whisper/Wav2Vec2).</p>
+                </div>
+                <div class="space-y-3">
+                    <span class="text-xs font-bold text-stone-400 uppercase mono tracking-wider block">Production Stack: Audio Datasets | Secure HF Repository Secrets</span>
+                    <a href="https://huggingface.co/spaces/taupedev/tagbana-validator" target="_blank" class="text-xs font-semibold underline text-stone-600 hover:text-stone-900">Launch Prototype →</a>
+                </div>
             </div>
         </div>
     </section>
